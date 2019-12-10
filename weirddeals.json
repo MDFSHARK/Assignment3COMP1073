@@ -1,0 +1,67 @@
+{
+"websiteName" : "Weird Deals",
+"slogan" : "It doesn't get weirder then this.",
+"established" : 2019,
+"active" : true,
+"weirdProducts" : [
+  {
+    "name" : "Shipping Crate Home",
+    "price" : "$36000.00",
+    "description" : "Ever thought of living in a shipping crate? Of course you haven't!",
+    "features" : [
+      "Spacous",
+      "Fully furnished",
+      "Perfect last resort"
+    ],
+    "image": "shippingcrate.jpg"
+  },
+
+  {
+    "name" : "Godzilla Garden Defender",
+    "price" : "$24.99",
+    "description" : "Make sure the gnomes never return with the king of monsters himself!",
+    "features" : [
+      "No more gnomes",
+      "Literally a dinosaur",
+      "Coolest thing ever seen in a yard"
+    ],
+    "image": "godzilla.jpg"
+  },
+
+  {
+    "name" : "USB Desk Fridge",
+    "price" : "$38.00",
+    "description" : "Perfect for your 12 year old that can't put down the XBOX controller!",
+    "features" : [
+      "Compact",
+      "Just barely useful that you need it",
+      "Refreshing"
+    ],
+    "image": "deskfridge.jpg"
+  },
+
+  {
+    "name" : "Pizza Hat",
+    "price" : "$11.62",
+    "description" : "Edible version available at your local dominos! (Use code: 1920GRIZ)",
+    "features" : [
+      "Seriously not edible",
+      "Makes people hungry",
+      "Surprisingly good for shade"
+    ],
+    "image": "pizzahat.jpg"
+  },
+
+  {
+    "name" : "Air Blaster",
+    "price" : "$24.99",
+    "description" : "Sound-barrier-breaker Device for a low low price!",
+    "features" : [
+      "MAKE",
+      "BIG",
+      "BOOM"
+    ],
+    "image": "airblaster.jpg"
+  }
+ ]
+}
