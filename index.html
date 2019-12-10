@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Weird Products</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="main.js" async></script>
+</head>
+<body>
+  <header>
+
+
+  </header>
+  <section>
+
+
+  </section>
+  <footer>
+    Check us out on location!
+    <div id="map"></div>
+    <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var georgian = {lat: 44.412710, lng: -79.666574};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 4, center: georgian});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: georgian, map: map});
+    }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhTMbuc8UQNV2MiKvkFVAAg05QcLGpRpQ&callback=initMap">
+    </script>
+    Copyright &copy; 2019
+  </footer>
+</body>
+</html>
